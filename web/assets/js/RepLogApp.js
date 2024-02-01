@@ -203,7 +203,7 @@
         
         static _calculateWeight(repLogs){
             let totalWeight = 0;
-            for (let repLog of repLogs) {
+            for (let repLog in repLogs) {
                 totalWeight += repLog.totalWeightLifted
             }
 
